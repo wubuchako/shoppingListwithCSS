@@ -100,4 +100,5 @@ li {
     font-size: 1.2em;
     color:#525252; 
     margin: 0 auto;
+    list-style:none;
 }
