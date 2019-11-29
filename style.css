@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align:center;
+    background: #e5e5ff;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.done {
+    text-decoration: line-through;  
+}
+
+header {
+    margin-top: 50px;
+}
+
+header h1 {
+    color:#525252;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header h1 span {
+    color:#2b6cae;
+    font-style: italic;
+}
+
+div.borderBottom {
+    width: 300px;
+    margin:0 auto;
+}
+
+div.borderColor {
+    display: inline-block;
+    background: #ffce00;
+    height: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.borderColor {
+    animation-duration: 0.2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  p{
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 20px;
+      color:#dd0066;
+      
+  }
+
+  .listInput  {
+      color: rgb(129, 124, 124);
+      border: solid 3px #b1b3b4;
+      width:300px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      padding: 10px;
+      width: 240px;
+      margin-top: 30px;
+      text-align:center;
+      background:#def3fd;
+      transition: all .2s;
+      outline:0;
+  }
+.listInput:hover {
+    background:#EBF7FF;
+}
+
+button{
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 80px;
+    background:#ffc0cb;
+    padding:8px;
+    color: rgb(129, 124, 124);
+    outline:0;
+}
+li {
+    width:300px;
+    font-size: 1.2em;
+    color:#525252; 
+    margin: 0 auto;
+}
